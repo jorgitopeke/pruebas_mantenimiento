@@ -8,7 +8,7 @@ class TestFiguras(unittest.TestCase):
 
     def test_Area_Circulo1(self):
         f = figuras()
-        self.assertEqual(78.54, f.areaCirculo(5))
+        self.assertEqual(78.53999999999999, f.areaCirculo(5))
 
     def test_Area_Circulo2(self):
         f = figuras()
@@ -17,7 +17,7 @@ class TestFiguras(unittest.TestCase):
 	
     def test_Area_Cuadrado(self):
         f = figuras()
-        self.assertEqual(3, f.areaCuadrado(2))
+        self.assertEqual(4, f.areaCuadrado(2))
 	
     def test_Area_Cuadrado2(self):
         f = figuras()
